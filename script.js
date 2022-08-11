@@ -1,9 +1,7 @@
 const nomeAluno = prompt("Insira o nome do aluno.");
 console.log(`O nome possui ${nomeAluno.length} letras`);
 if (nomeAluno.length < 5) {
-  console.log(`Nome de Aluno inválido!`);
-}
-
+  console.log(`Nome de Aluno inválido!`);}
 
 let mat1 = "Matemática";
 let mat2 = "Português";
@@ -50,7 +48,7 @@ if (presPort > 10 || presPort < 0) {
   alert(`A presença de ${mat2} é ${presPort}`);
 }
 
-//Informática
+//informática
 
 let notaInf = parseFloat(prompt(`Insira a nota ${mat3} do aluno.`));
 if (notaInf > 10 || notaInf < 0) {
