@@ -4,6 +4,7 @@ if (nomeAluno.length < 5) {
   console.log(`Nome de Aluno inválido!`);
 }
 
+
 let mat1 = "Matemática";
 let mat2 = "Português";
 let mat3 = "Informática";
