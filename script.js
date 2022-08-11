@@ -1,10 +1,10 @@
 const nomeAluno = prompt("Insira o nome do aluno.");
 console.log(`O nome possui ${nomeAluno.length} letras`);
 if (nomeAluno.length < 5) {
-  alert(`Nome de Aluno inválido!`);}
-else {console.log(`Nome válido!`
-
-)}
+  alert(`Nome de Aluno inválido!`);
+} else {
+  console.log(`Nome válido!`);
+}
 let mat1 = "Matemática";
 let mat2 = "Português";
 let mat3 = "Informática";
@@ -21,9 +21,8 @@ let mat10 = "Educação Física";
 let notaMat = parseFloat(prompt(`Insira a nota ${mat1} do aluno.`));
 if (notaMat > 10 || notaMat < 0) {
   alert(`A nota é inválida!`);
-}
-else {
-console.log(`A nota de ${mat1} é ${notaMat}`);
+} else {
+  console.log(`A nota de ${mat1} é ${notaMat}`);
 }
 
 let presMat = parseInt(prompt(`Insira a presença de ${mat1} do aluno.`));
@@ -42,7 +41,6 @@ if (notaPort > 10 || notaPort < 0) {
   console.log(`A nota de ${mat2} é ${notaPort}`);
 }
 
-
 let presPort = parseInt(prompt(`Insira a presença de ${mat2} do aluno.`));
 if (presPort > 10 || presPort < 0) {
   alert(`A presença é inválida!`);
@@ -56,7 +54,7 @@ let notaInf = parseFloat(prompt(`Insira a nota ${mat3} do aluno.`));
 if (notaInf > 10 || notaInf < 0) {
   alert(`A nota é inválida!`);
 } else {
- console.log(`A nota de ${mat3} é ${notaInf}`);
+  console.log(`A nota de ${mat3} é ${notaInf}`);
 }
 
 let presInf = parseInt(prompt(`Insira a presença de ${mat3} do aluno.`));
@@ -75,7 +73,6 @@ if (notaGeo > 10 || notaGeo < 0) {
   console.log(`A nota de ${mat4} é ${notaGeo}`);
 }
 
-
 let presGeo = parseInt(prompt(`Insira a presença de ${mat4} do aluno.`));
 if (presGeo > 10 || presGeo < 0) {
   alert(`A presença é inválida!`);
@@ -92,7 +89,6 @@ if (notaIng > 10 || notaIng < 0) {
   console.log(`A nota de ${mat5} é ${notaIng}`);
 }
 
-
 let presIng = parseInt(prompt(`Insira a presença de ${mat5} do aluno.`));
 if (presIng > 10 || presIng < 0) {
   alert(`A presença é inválida!`);
@@ -108,7 +104,6 @@ if (notaHist > 10 || notaHist < 0) {
 } else {
   console.log(`A nota de ${mat6} é ${notaHist}`);
 }
-
 
 let presHist = parseInt(prompt(`Insira a presença de ${mat6} do aluno.`));
 if (presHist > 10 || presHist < 0) {
