@@ -210,7 +210,7 @@ if (mediaNota >= 8 || mediaPres >= 6) {
   alert(
     `A nota do aluno ${nomeAluno} é de ${mediaNota} e a presença ${parseInt(
       mediaPres
-    )}, parabéns, aluno aprovado!`
+    )}. Parabéns, aluno aprovado!`
   );
 } else {
   alert(`Aluno reprovado!`);
