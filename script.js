@@ -207,11 +207,11 @@ console.log(mediaNota);
 console.log(parseInt(mediaPres));
 
 if (mediaNota >= 8 || mediaPres >= 6) {
-  console.log(
+  alert(
     `A nota do aluno ${nomeAluno} é de ${mediaNota} e a presença ${parseInt(
       mediaPres
     )}, parabéns, aluno aprovado!`
   );
 } else {
-  console.log(`Aluno reprovado!`);
+  alert(`Aluno reprovado!`);
 }
