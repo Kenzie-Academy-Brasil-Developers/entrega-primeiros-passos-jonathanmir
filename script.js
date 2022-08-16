@@ -1,4 +1,4 @@
-const nomeAluno = prompt("Insira o nome do aluno.");
+let nomeAluno = prompt("Insira o nome do aluno.");
 console.log(`O nome possui ${nomeAluno.length} letras`);
 if (nomeAluno.length < 5) {
   alert(`Nome de Aluno inválido!`);
@@ -18,7 +18,7 @@ let mat10 = "Educação Física";
 
 //Matemática
 
-let notaMat = parseFloat(prompt(`Insira a nota ${mat1} do aluno.`));
+let notaMat = parseFloat(prompt(`Insira a nota de ${mat1} do aluno.`));
 if (notaMat > 10 || notaMat < 0) {
   alert(`A nota é inválida!`);
 } else {
@@ -34,7 +34,7 @@ if (presMat > 10 || presMat < 0) {
 
 //Portugues
 
-let notaPort = parseFloat(prompt(`Insira a nota ${mat2} do aluno.`));
+let notaPort = parseFloat(prompt(`Insira a nota de ${mat2} do aluno.`));
 if (notaPort > 10 || notaPort < 0) {
   alert(`A nota é inválida!`);
 } else {
@@ -50,7 +50,7 @@ if (presPort > 10 || presPort < 0) {
 
 //informática
 
-let notaInf = parseFloat(prompt(`Insira a nota ${mat3} do aluno.`));
+let notaInf = parseFloat(prompt(`Insira a nota de ${mat3} do aluno.`));
 if (notaInf > 10 || notaInf < 0) {
   alert(`A nota é inválida!`);
 } else {
@@ -66,7 +66,7 @@ if (presInf > 10 || presInf < 0) {
 
 //Geografia
 
-let notaGeo = parseFloat(prompt(`Insira a nota ${mat4} do aluno.`));
+let notaGeo = parseFloat(prompt(`Insira a nota de ${mat4} do aluno.`));
 if (notaGeo > 10 || notaGeo < 0) {
   alert(`A nota é inválida!`);
 } else {
@@ -82,7 +82,7 @@ if (presGeo > 10 || presGeo < 0) {
 
 //Inglês
 
-let notaIng = parseFloat(prompt(`Insira a nota ${mat5} do aluno.`));
+let notaIng = parseFloat(prompt(`Insira a nota de ${mat5} do aluno.`));
 if (notaIng > 10 || notaIng < 0) {
   alert(`A nota é inválida!`);
 } else {
@@ -98,7 +98,7 @@ if (presIng > 10 || presIng < 0) {
 
 //História
 
-let notaHist = parseFloat(prompt(`Insira a nota ${mat6} do aluno.`));
+let notaHist = parseFloat(prompt(`Insira a nota de ${mat6} do aluno.`));
 if (notaHist > 10 || notaHist < 0) {
   alert(`A nota é inválida!`);
 } else {
@@ -114,7 +114,7 @@ if (presHist > 10 || presHist < 0) {
 
 //Filosofia
 
-let notaFil = parseFloat(prompt(`Insira a nota ${mat7} do aluno.`));
+let notaFil = parseFloat(prompt(`Insira a nota de ${mat7} do aluno.`));
 if (notaFil > 10 || notaFil < 0) {
   alert(`A nota é inválida!`);
 } else {
@@ -129,7 +129,7 @@ if (presFil > 10 || presFil < 0) {
 
 //Sociologia
 
-let notaSocio = parseFloat(prompt(`Insira a nota ${mat8} do aluno.`));
+let notaSocio = parseFloat(prompt(`Insira a nota de ${mat8} do aluno.`));
 if (notaSocio > 10 || notaSocio < 0) {
   alert(`A nota é inválida!`);
 } else {
